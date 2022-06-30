@@ -48,7 +48,7 @@ simpleContentStores.rootStore=myCachingFileStore
 simpleContentStores.customStore.myCachingFileStore.type=standardCachingStore
 simpleContentStores.customStore.myCachingFileStore.ref.backingStore=mySlowFileStore
 simpleContentStores.customStore.myCachingFileStore.value.cacheRoot=/mnt/ssd/alfresco/alf_data/cacheStore
-simpleContentStores.customStore.myCachingFileStore.value.cacheInbound=true
+simpleContentStores.customStore.myCachingFileStore.value.cacheOnInbound=true
 simpleContentStores.customStore.myCachingFileStore.value.useStandardQuotaStrategy=true
 simpleContentStores.customStore.myCachingFileStore.value.standardQuotaMaxUsageBytes=1073741824
 
